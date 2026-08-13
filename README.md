@@ -135,10 +135,15 @@ On privilégie le F1-score car l'accuracy peut être trompeuse si les classes so
 
 - **Faux positif (FP)** : Prédire qu'une réservation sera annulée alors que le client maintient son séjour.Cela pourrait amener l'hôtel à surbooker inutilement ou à importuner un client fidèle.
 - **Faux négatif (FN)** : Prédire qu'un client viendra alors qu'il annule tardivement.Cela laisse une chambre inoccupée, entraînant une perte de revenus et perturbant la planification opérationnelle.
+- **Justification** : **Le faux négatif** est généralement considéré comme plus grave d'un point de vue financier direct à cause du manque à gagner sur la chambre.Cependant, il ne faut pas « pénaliser inutilement » les clients, ce qui rend **le faux positif** très coûteux en termes de réputation et de relation client.
 
 #### **Q3. Quelles variables créées par feature engineering ont le plus amélioré votre modèle par rapport à la régression logistique de référence ?**
 
-*(Listez les variables, expliquez leur construction et quantifiez le gain observé.)*
+D'après l'étape 4, les variables créées à partir des éléments suivants sont les plus prometteuses :
+- **Délai de réservation** (*(delai_reservation_jours)*) : Les réservations prises très longtemps à l'avance ont souvent un risque d'annulation plus élevé.
+- **Historique du client** : Le calcul d'un ratio à partir des *(annulations_passees)* et *(reservations_passees)* permet de quantifier la fiabilité historique d'un client.
+- **Valeur économique** : Le croisement entre le *(montant_total_eur)* et la présence d'une *(remise_pct)* peut indiquer des comportements opportunistes.
+- **Saisonnalité** : L'interaction entre la *(date_arrivee)* et la variable *(haute_saison_regionale)* est déterminante pour capter les tendances saisonnières propres à chaque région italienne.
 
 #### **Q4. Pourquoi un découpage aléatoire simple peut-il produire une évaluation trompeuse sur ce dataset ?**
 
