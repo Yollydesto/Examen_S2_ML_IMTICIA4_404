@@ -114,7 +114,7 @@ Présentez les résultats obtenus sur **le même jeu de validation** afin que la
 | Naive Bayes |  'priors': None, 'var_smoothing': 1e-09 | 0.4527 | 0.3785 |  0.5631|  0.6787|
 | Random Forest | random_state: 42; n_estimators: 100; max_depth: None; min_samples_leaf: 1; min_samples_split: 2 |  0.9627|  0.9691|  0.9565|  0.9985|
 
-**Seuil de décision retenu :**0.5 (seuil par défaut pour le Random Forest)
+**Seuil de décision retenu :** 0.5 (seuil par défaut pour le Random Forest)
 
 **Justification du choix du modèle final :**
 
