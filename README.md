@@ -129,7 +129,8 @@ Présentez les résultats obtenus sur **le même jeu de validation** afin que la
 
 #### **Q1. Pourquoi utilise-t-on principalement le F1-score plutôt que l’accuracy pour cette tâche ?**
 
-*(Votre réponse ici.)*
+*On privilégie le F1-score car l'accuracy peut être trompeuse si les classes sont déséquilibrées, par exemple si les annulations sont beaucoup moins fréquentes que les séjours maintenus. Le F1-score permet de maximiser la performance sur la classe spécifique « annulation » en trouvant un équilibre entre la précision et le rappel. Cette approche est cruciale pour remplir la mission consistant à identifier les annulations sans pour autant pénaliser les clients qui ont l'intention de venir
+*
 
 #### **Q2. Dans ce contexte, qu’est-ce qui est le plus grave : un faux positif ou un faux négatif ?**
 
