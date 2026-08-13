@@ -8,61 +8,60 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 
 ### **1. Informations sur le Groupe**
 
-
 #### Membre 1
 
-- nom :
-- prénom(s) :
-- classe :
-- numéro :
+- nom : **RAKOMAMPIONONA**
+- prénom(s) : Fitahiana Herizo
+- classe : IMTICIA 4
+- numéro : 07
 - rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
 
 #### Membre 2
 
-- nom :
-- prénom(s) :
-- classe :
-- numéro :
+- nom : **RAKOTOBE**
+- prénom(s) : Lori Emmanuela
+- classe : IMTICIA 4
+- numéro : 10
 - rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
 
 #### Membre 3
 
-- nom :
-- prénom(s) :
-- classe :
-- numéro :
+- nom : **RAKOTONINDRINA** 
+- prénom(s) : Andry Anicet
+- classe : IMTICIA 4
+- numéro : 12
 - rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
 
 #### Membre 4
 
-- nom :
-- prénom(s) :
-- classe :
-- numéro :
+- nom : **RAZAFIMAHANDRY**
+- prénom(s) : Herintsoa Fitahiana
+- classe : IMTICIA 4
+- numéro : 15
 - rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
 
 #### Membre 5
 
-- nom :
-- prénom(s) :
-- classe :
-- numéro :
+- nom : **HARINIRIANA**
+- prénom(s) : Nomena Niaina Kévin
+- classe : IMTICIA 4
+- numéro : 19
 - rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
 
 #### Membre 6
 
-- nom :
-- prénom(s) :
-- classe :
-- numéro :
+- nom : **RANDRIANARISOA** 
+- prénom(s) : Notahiniela Olly Desto
+- classe : IMTICIA 4
+- numéro : 20
 - rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
 
 #### Membre 7
 
-- nom :
-- prénom(s) :
-- classe :
-- numéro :
+- nom : **RAKOTONANDRASANA** 
+- prénom(s) : Rova Fanantenana 
+- classe : IMTICIA 4
+- numéro : 24
 - rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
 
 ---
