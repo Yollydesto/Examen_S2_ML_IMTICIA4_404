@@ -70,19 +70,19 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 
 #### Problématique
 
-*(Rédigez ici 2 à 3 phrases expliquant le problème d’annulation rencontré par Atlantic Haven Hotels, ses conséquences opérationnelles et l’intérêt d’une prédiction suffisamment précoce.)*
+Les annulations de réservations représentent un défi majeur pour Atlantic Haven Hotels, entraînant des pertes de revenus, des chambres inoccupées et une gestion opérationnelle inefficace. La capacité à prédire ces annulations suffisamment tôt permettrait à la chaîne hôtelière d'optimiser sa gestion des ressources, de minimiser les pertes financières et d'améliorer la satisfaction client par des stratégies proactives (ex: surbooking ciblé, offres de dernière minute).
 
 #### Méthodologie adoptée
 
-*(Résumez votre démarche : EDA, traitement des données, feature engineering, validation temporelle, baseline, modèles comparés et choix du seuil de décision.)*
+Notre démarche a débuté par une phase d'Exploration des Données (EDA) pour comprendre la structure des données, identifier les distributions, les valeurs manquantes et les relations initiales entre variables. Le traitement des données a inclus la gestion des valeurs manquantes et l'encodage One-Hot des variables catégorielles. Nous avons sélectionné les caractéristiques les plus corrélées à la variable cible reservation_annulee pour la modélisation. Plusieurs modèles de classification ont été comparés : une Régression Logistique (avec optimisation des hyperparamètres par GridSearchCV), un modèle K-Nearest Neighbors (KNN), un modèle Naive Bayes (GaussianNB) et un Random Forest. Pour la Régression Logistique, un ajustement du seuil de décision a été exploré pour améliorer le rappel. Chaque modèle a été évalué en utilisant des métriques telles que l'Accuracy, la Precision, le Recall, le F1-Score et la courbe ROC AUC.
 
 #### Résultats obtenus
 
-*(Indiquez le meilleur F1-score obtenu sur votre jeu de validation, les principales métriques complémentaires et une découverte importante issue de votre analyse.)*
+Le meilleur F1-score obtenu sur le jeu d'entraînement, après optimisation des hyperparamètres, est de 0.1252 pour la Régression Logistique (validation croisée). Cependant, le modèle Random Forest a démontré des performances bien supérieures sur l'ensemble d'entraînement avec une Accuracy de 0.9809, une Precision de 0.9691, un Recall de 0.9565 et un F1-Score de 0.9627, ainsi qu'un ROC AUC de 0.9985. Ces métriques indiquent une excellente capacité à identifier correctement les annulations et les non-annulations. Une découverte importante issue de notre analyse de corrélation est que le delai_reservation_jours (délai entre la réservation et l'arrivée) et le tarif_remboursable sont parmi les variables les plus fortement corrélées avec la décision d'annuler, suggérant que les réservations effectuées longtemps à l'avance ou avec une option de remboursement sont plus susceptibles d'être annulées.
 
 #### Mots-clés
 
-*(Indiquez cinq à huit mots-clés techniques ou métier, par exemple : classification binaire, annulation, validation temporelle, F1-score, feature engineering.)*
+classification binaire, annulation, F1-score, feature engineering, machine learning, Régression Logistique, Random Forest, Scikit-learn.
 
 ---
 
