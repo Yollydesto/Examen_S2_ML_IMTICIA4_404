@@ -100,7 +100,6 @@ Voici la liste des fichiers et liens importants permettant d’évaluer votre tr
 
 - [**LIEN VERS LA VIDÉO DE PRÉSENTATION** — Google Drive ou YouTube](https://drive.google.com/drive/u/0/folders/1ReWGkGBJZxrbx6PlMtgF6_-l9iGfQo7x)
 - [Lien vers le dépôt GitHub](https://github.com/Yollydesto/Examen_S2_ML_IMTICIA4_404)
-- [Lien vers une autre ressource — facultatif](https://www.google.com/)
 
 ---
 
@@ -191,11 +190,11 @@ Analysez au minimum :
 
 ### **6. Conclusion et Recommandations**
 
-*(Résumez en un court paragraphe les performances, les limites et les conditions raisonnables d’utilisation du modèle.)*
+Le modèle développé permet d'identifier les risques d'annulation avec une précision supérieure à une approche aléatoire, tout en respectant la chronologie des données. Ses limites résident dans la nature synthétique des données et l'impossibilité de prévoir des événements imprévus imprévisibles. Il doit être utilisé comme un outil d'aide à la décision pour le personnel de réception et non comme un système d'annulation automatisé.
 
 **Recommandation opérationnelle finale :**
 
-*(Votre réponse ici.)*
+Mettre en place une **cellule de confirmation proactive** qui contacte en priorité les réservations ayant une probabilité d'annulation supérieure à 80 % afin de sécuriser le taux d'occupation sans dégrader l'expérience client.
 
 ---
 
