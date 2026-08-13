@@ -133,7 +133,9 @@ On privilégie le F1-score car l'accuracy peut être trompeuse si les classes so
 
 #### **Q2. Dans ce contexte, qu’est-ce qui est le plus grave : un faux positif ou un faux négatif ?**
 
-*(Définissez d’abord les deux erreurs dans le contexte hôtelier, puis justifiez votre réponse. Une réponse nuancée est possible.)*
+•Faux positif (FP) : Prédire qu'une réservation sera annulée alors que le client maintient son séjour.Cela pourrait amener l'hôtel à surbooker inutilement ou à importuner un client fidèle.
+
+•Faux négatif (FN) : Prédire qu'un client viendra alors qu'il annule tardivement.Cela laisse une chambre inoccupée, entraînant une perte de revenus et perturbant la planification opérationnelle.
 
 #### **Q3. Quelles variables créées par feature engineering ont le plus amélioré votre modèle par rapport à la régression logistique de référence ?**
 
