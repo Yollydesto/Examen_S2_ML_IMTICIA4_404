@@ -180,6 +180,8 @@ Analysez au minimum :
 - les raisons possibles de ces erreurs ;
 - une piste d’amélioration des données ou du modèle.
 
+
+
 - **Faux positifs possibles** : Des clients réservant très tôt pour une haute saison mais qui sont des habitués très fiables malgré un profil « à risque » selon les statistiques globales.
 - **Faux négatifs possibles** : Des réservations de dernière minute qui sont annulées suite à un imprévu personnel non capté par les variables du modèle.
 - **Raisons des erreurs** : Absence de données contextuelles externes comme la météo locale ou des perturbations de transport spécifiques au moment de la réservation.
