@@ -215,8 +215,12 @@ Mettre en place une **cellule de confirmation proactive** qui contacte en priori
 
 ### **8. Bibliographie**
 
-*(Listez les livres, articles, documentations et liens ayant servi dans ce travail. Mentionnez également les outils d’IA générative utilisés et décrivez brièvement leur contribution.)*
 
-- Référence 1 :
-- Référence 2 :
-- Référence 3 :
+- Référence 1 : [les modèles de classification](https://www.ibm.com/fr-fr/think/topics/classification-models)
+- Référence 2 : [Matrice_de_confusion](https://fr.wikipedia.org/wiki/Matrice_de_confusion)
+- Référence 3 : [Régression logistique](https://fr.wikipedia.org/wiki/R%C3%A9gression_logistique)
+
+  **Outils d'IA générative utilisés** :
+- **Google Gemini**
+- **ChatGPT**
+- **ClaudeAI**
