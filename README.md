@@ -114,11 +114,15 @@ Présentez les résultats obtenus sur **le même jeu de validation** afin que la
 | Naive Bayes |  'priors': None, 'var_smoothing': 1e-09 | 0.4527 | 0.3785 |  0.5631|  0.6787|
 | Random Forest | random_state: 42; n_estimators: 100; max_depth: None; min_samples_leaf: 1; min_samples_split: 2 |  0.9627|  0.9691|  0.9565|  0.9985|
 
-**Seuil de décision retenu :** *(votre réponse ici)*
+**Seuil de décision retenu :0.5 (seuil par défaut pour le Random Forest)
 
 **Justification du choix du modèle final :**
 
-*(Votre réponse ici. Ne vous limitez pas au score : considérez la stabilité, l’interprétabilité, les erreurs et le coût métier.)*
+Le modèle Random Forest a été choisi comme modèle final en raison de ses performances exceptionnelles et largement supérieures à celles des autres modèles testés sur l'ensemble d'entraînement. Avec un F1-score de 0.9627, une Précision de 0.9691, un Rappel de 0.9565 et un ROC-AUC de 0.9985, le Random Forest démontre une excellente capacité à identifier correctement les annulations et les non-annulations avec un très faible taux d'erreurs (faux positifs et faux négatifs).
+
+Bien que la Régression Logistique soit plus interprétable, son F1-score très faible (même après optimisation du seuil, il n'atteignait pas les performances des autres modèles) la rendait inadaptée à la problématique. Le KNN et Naive Bayes ont montré des performances meilleures que la Régression Logistique, mais restent significativement en dessous du Random Forest.
+
+Le Random Forest est également un modèle robuste, moins sujet au surapprentissage que d'autres modèles complexes, et capable de gérer efficacement les relations non linéaires et les interactions entre les caractéristiques. Sa stabilité et sa précision en font le choix le plus judicieux pour les 'Atlantic Haven Hotels' afin de minimiser les pertes opérationnelles dues aux annulations. Le coût métier d'une annulation non prédite (faux négatif) étant potentiellement élevé, le rappel élevé du Random Forest est un atout majeur, équilibré par une excellente précision, garantissant que les actions proactives de l'hôtel seront basées sur des prédictions fiables.
 
 ---
 
