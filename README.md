@@ -141,7 +141,7 @@ On privilégie le F1-score car l'accuracy peut être trompeuse si les classes so
 
 D'après l'étape 4, les variables créées à partir des éléments suivants sont les plus prometteuses :
 - **Délai de réservation** (*delai_reservation_jours*) : Les réservations prises très longtemps à l'avance ont souvent un risque d'annulation plus élevé.
-- **Historique du client** : Le calcul d'un ratio à partir des *(annulations_passees)* et *reservations_passees* permet de quantifier la fiabilité historique d'un client.
+- **Historique du client** : Le calcul d'un ratio à partir des *annulations_passees* et *reservations_passees* permet de quantifier la fiabilité historique d'un client.
 - **Valeur économique** : Le croisement entre le *montant_total_eur* et la présence d'une *remise_pct* peut indiquer des comportements opportunistes.
 - **Saisonnalité** : L'interaction entre la *date_arrivee* et la variable *haute_saison_regionale* est déterminante pour capter les tendances saisonnières propres à chaque région italienne.
 
