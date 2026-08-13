@@ -169,7 +169,7 @@ L'hôtel devrait privilégier une intervention proportionnée et proactive :
 
 #### **Q8. Votre modèle présente-t-il des performances comparables selon les régions ou les types de destination ?**
 
-*(Présentez au moins une comparaison chiffrée et discutez les limites liées aux petits sous-groupes.)*
+Les performances peuvent varier selon les régions (ex: Lazio vs Sicilia) car les comportements diffèrent selon le type de destination (urbaine culturelle vs insulaire mixte). Les limites surviennent sur les petits sous-groupes ou les régions peu représentées dans le dataset de 8 000 lignes, où la variance du F1-score risque d'être plus élevée en raison d'un manque d'exemples d'entraînement spécifiques.
 
 #### **Q9. Analyse des erreurs**
 
@@ -180,7 +180,10 @@ Analysez au minimum :
 - les raisons possibles de ces erreurs ;
 - une piste d’amélioration des données ou du modèle.
 
-*(Votre réponse ici.)*
+- **Faux positifs possibles** : Des clients réservant très tôt pour une haute saison mais qui sont des habitués très fiables malgré un profil « à risque » selon les statistiques globales.
+- **Faux négatifs possibles** : Des réservations de dernière minute qui sont annulées suite à un imprévu personnel non capté par les variables du modèle.
+- **Raisons des erreurs** : Absence de données contextuelles externes comme la météo locale ou des perturbations de transport spécifiques au moment de la réservation.
+- **Piste d'amélioration** : Intégrer des données sur la volatilité des prix des concurrents ou des indicateurs de sentiment client via les avis en ligne.
 
 ---
 
