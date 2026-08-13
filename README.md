@@ -1,4 +1,4 @@
-# 🎮 Projet Morpion ML - Examen M1 S2,  MACHINE LEARNING
+# 🎮 Projet Atlantic Haven Hotels - Examen M1 S2,  MACHINE LEARNING & DATA SCIENCE
 
 [Site Web ISPM](https://ispm-edu.com) - https://ispm-edu.com
 
@@ -22,7 +22,7 @@
 
 
 
-[Lien Video](https://drive.google.com/drive/folders/1OIBLziiX-BiaDlof8i4wAqiBojoWreUX?usp=drive_link) //soloina
+[Lien Video](https://drive.google.com/drive/u/0/folders/1ReWGkGBJZxrbx6PlMtgF6_-l9iGfQo7x) 
 ## 📋 Table des Matières
 
 
