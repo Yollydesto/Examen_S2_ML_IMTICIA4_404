@@ -94,7 +94,7 @@ Voici la liste des fichiers et liens importants permettant d’évaluer votre tr
 - **submission.csv** : prédictions sur `reservations_test.csv` ;
 - **README.md** : présent rapport complété ;
 - **requirements.txt** : dépendances nécessaires à la reproduction du projet *(si nécessaire)* ;
-- *(ajoutez ici les autres fichiers utiles sans inclure les fichiers temporaires).* 
+- **LICENSE** : licence **MIT**, permettant l’utilisation, la modification et la redistribution du projet, sous réserve de conserver les mentions de copyright et de licence.
 
 **🔗 Liens utiles :**
 
