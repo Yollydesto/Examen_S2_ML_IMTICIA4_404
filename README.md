@@ -147,7 +147,7 @@ D'après l'étape 4, les variables créées à partir des éléments suivants so
 
 #### **Q4. Pourquoi un découpage aléatoire simple peut-il produire une évaluation trompeuse sur ce dataset ?**
 
-*(Expliquez votre stratégie de validation temporelle et indiquez les dates ou proportions utilisées.)*
+Un découpage aléatoire est inapproprié car les données sont ordonnées dans le temps. Le jeu de test contient des réservations plus récentes que celles de l'entraînement. Une validation aléatoire créerait une « fuite de données temporelle », où le modèle apprendrait d'événements futurs pour prédire le passé, donnant ainsi une estimation du score trop optimiste et non représentative des conditions réelles. La stratégie de validation doit donc être purement chronologique.
 
 #### **Q5. Quels profils ou scénarios de réservation sont les plus fréquemment associés aux annulations dans vos analyses ?**
 
