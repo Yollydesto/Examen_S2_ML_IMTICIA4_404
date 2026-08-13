@@ -109,10 +109,7 @@ Présentez les résultats obtenus sur **le même jeu de validation** afin que la
 
 | Modèle | Paramètres principaux | F1-score | Précision | Rappel | ROC-AUC |
 |---|---|---:|---:|---:|---:|
-| Régression logistique — baseline | solver: liblinear
-  random_state: 42
-  C: 1.0
-  penalty: l2 |  0.1204|  0.6106|  0.0668|  0.6857|
+| Régression logistique — baseline | solver: liblinear ;random_state: 42 ;C: 1.0 ;penalty: l2 |  0.1204|  0.6106|  0.0668|  0.6857|
 | KNN |  n_neighbors: 5
   weights: uniform
   metric: minkowski|  0.4757|  0.6548|  0.3735|  0.8165|
