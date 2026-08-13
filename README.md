@@ -109,10 +109,19 @@ Présentez les résultats obtenus sur **le même jeu de validation** afin que la
 
 | Modèle | Paramètres principaux | F1-score | Précision | Rappel | ROC-AUC |
 |---|---|---:|---:|---:|---:|
-| Régression logistique — baseline |  |  0.1204|  0.6106|  0.0668|  0.6857|
-| Modèle 2 |  |  |  |  |  |
-| Modèle 3 |  |  |  |  |  |
-| Modèle final |  |  |  |  |  |
+| Régression logistique — baseline | solver: liblinear
+  random_state: 42
+  C: 1.0
+  penalty: l2 |  0.1204|  0.6106|  0.0668|  0.6857|
+| KNN |  n_neighbors: 5
+  weights: uniform
+  metric: minkowski|  0.4757|  0.6548|  0.3735|  0.8165|
+| Naive Bayes |  'priors': None, 'var_smoothing': 1e-09 | 0.4527 | 0.3785 |  0.5631|  0.6787|
+| Random Forest | random_state: 42
+  n_estimators: 100
+  max_depth: None
+  min_samples_leaf: 1
+  min_samples_split: 2 |  0.9627|  0.9691|  0.9565|  0.9985|
 
 **Seuil de décision retenu :** *(votre réponse ici)*
 
