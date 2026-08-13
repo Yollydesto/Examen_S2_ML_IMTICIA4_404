@@ -205,7 +205,7 @@ Mettre en place une **cellule de confirmation proactive** qui contacte en priori
 ### **7. Reproductibilité**
 
 - version de Python : 3.10.13
-- principales bibliothèques et versions : dans requirements.txt
+- principales bibliothèques et versions : `pip install -r requirements.txt`
 - graine(s) aléatoire(s) :
 - commande ou procédure d’exécution : 
 - durée approximative d’entraînement : 
