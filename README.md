@@ -98,7 +98,7 @@ Voici la liste des fichiers et liens importants permettant d’évaluer votre tr
 
 **🔗 Liens utiles :**
 
-- [**LIEN VERS LA VIDÉO DE PRÉSENTATION** — Google Drive ou YouTube](https://drive.google.com/drive/u/0/folders/1ReWGkGBJZxrbx6PlMtgF6_-l9iGfQo7x)
+- [**LIEN VERS LA VIDÉO DE PRÉSENTATION** — Google Drive](https://drive.google.com/drive/u/0/folders/1ReWGkGBJZxrbx6PlMtgF6_-l9iGfQo7x)
 - [Lien vers le dépôt GitHub](https://github.com/Yollydesto/Examen_S2_ML_IMTICIA4_404)
 
 ---
