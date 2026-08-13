@@ -70,7 +70,7 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 
 #### Problématique
 
-Les annulations de réservations représentent un défi majeur pour Atlantic Haven Hotels, entraînant des pertes de revenus, des chambres inoccupées et une gestion opérationnelle inefficace. La capacité à prédire ces annulations suffisamment tôt permettrait à la chaîne hôtelière d'optimiser sa gestion des ressources, de minimiser les pertes financières et d'améliorer la satisfaction client par des stratégies proactives (ex: surbooking ciblé, offres de dernière minute).
+Les annulations de réservations représentent un défi majeur pour Atlantic Haven Hotels, entraînant des Google Geminipertes de revenus, des chambres inoccupées et une gestion opérationnelle inefficace. La capacité à prédire ces annulations suffisamment tôt permettrait à la chaîne hôtelière d'optimiser sa gestion des ressources, de minimiser les pertes financières et d'améliorer la satisfaction client par des stratégies proactives (ex: surbooking ciblé, offres de dernière minute).
 
 #### Méthodologie adoptée
 
@@ -127,8 +127,6 @@ Le Random Forest est également un modèle robuste, moins sujet au surapprentiss
 ---
 
 ### **5. Réponses aux Questions d’Analyse**
-
-*Répondez précisément aux questions ci-dessous. Utilisez des chiffres, tableaux ou références à vos graphiques pour justifier vos réponses.*
 
 #### **Q1. Pourquoi utilise-t-on principalement le F1-score plutôt que l’accuracy pour cette tâche ?**
 
