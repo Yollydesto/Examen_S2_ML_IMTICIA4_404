@@ -109,7 +109,7 @@ Présentez les résultats obtenus sur **le même jeu de validation** afin que la
 
 | Modèle | Paramètres principaux | F1-score | Précision | Rappel | ROC-AUC |
 |---|---|---:|---:|---:|---:|
-| Régression logistique — baseline |  |  0.1204|  0.6106|  0.0668|  |
+| Régression logistique — baseline |  |  0.1204|  0.6106|  0.0668|  0.6857|
 | Modèle 2 |  |  |  |  |  |
 | Modèle 3 |  |  |  |  |  |
 | Modèle final |  |  |  |  |  |
