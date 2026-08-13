@@ -14,7 +14,7 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 - prénom(s) : Fitahiana Herizo
 - classe : IMTICIA 4
 - numéro : 07
-- rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
+- rôle : Analyste
 
 #### Membre 2
 
@@ -22,7 +22,7 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 - prénom(s) : Lori Emmanuela
 - classe : IMTICIA 4
 - numéro : 10
-- rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
+- rôle : Responsable de la modélisation
 
 #### Membre 3
 
@@ -30,7 +30,7 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 - prénom(s) : Andry Anicet
 - classe : IMTICIA 4
 - numéro : 12
-- rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
+- rôle : Responsable de la modélisation
 
 #### Membre 4
 
@@ -38,7 +38,7 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 - prénom(s) : Herintsoa Fitahiana
 - classe : IMTICIA 4
 - numéro : 15
-- rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
+- rôle : Développeur, Analyste, Responsable de la modélisation
 
 #### Membre 5
 
@@ -46,7 +46,7 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 - prénom(s) : Nomena Niaina Kévin
 - classe : IMTICIA 4
 - numéro : 19
-- rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
+- rôle : Développeur
 
 #### Membre 6
 
@@ -54,7 +54,7 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 - prénom(s) : Notahiniela Olly Desto
 - classe : IMTICIA 4
 - numéro : 20
-- rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
+- rôle : Analyste
 
 #### Membre 7
 
@@ -62,7 +62,7 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 - prénom(s) : Rova Fanantenana 
 - classe : IMTICIA 4
 - numéro : 24
-- rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
+- rôle : Analyste
 
 ---
 
@@ -157,7 +157,8 @@ Un découpage aléatoire est inapproprié car les données sont ordonnées dans 
 
 #### **Q6. Comment votre pipeline traite-t-il les valeurs manquantes et les catégories jamais observées pendant l’entraînement ?**
 
-*(Votre réponse ici. Précisez comment vous avez évité la fuite de données.)*
+- **Valeurs manquantes** : Imputer les variables comme enfants, `prix_moyen_nuit_eur` ou `demandes_speciales` en utilisant uniquement des statistiques (moyenne/médiane) calculées sur le jeu d'entraînement pour éviter toute fuite.
+- **Nouvelles catégories** : Utiliser des encodeurs robustes (comme un OneHotEncoder avec `handle_unknown='ignore'`) pour que le modèle ne plante pas face à un agent_id ou une ville jamais vus durant l'entraînement.
 
 #### **Q7. Selon vous, quelle action l’hôtel devrait-il entreprendre lorsqu’une réservation en cours présente une forte probabilité d’annulation ?**
 
