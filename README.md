@@ -191,12 +191,12 @@ Analysez au minimum :
 
 ### **7. Reproductibilité**
 
-- version de Python :
-- principales bibliothèques et versions :
+- version de Python : 3.10.13
+- principales bibliothèques et versions : dans requirements.txt
 - graine(s) aléatoire(s) :
-- commande ou procédure d’exécution :
-- durée approximative d’entraînement :
-- environnement utilisé : *(local, Google Colab, Kaggle, etc.)*
+- commande ou procédure d’exécution : 
+- durée approximative d’entraînement : 
+- environnement utilisé : Google Colab, env python
 
 ---
 
