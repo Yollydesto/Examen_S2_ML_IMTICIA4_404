@@ -151,12 +151,9 @@ Un découpage aléatoire est inapproprié car les données sont ordonnées dans 
 
 #### **Q5. Quels profils ou scénarios de réservation sont les plus fréquemment associés aux annulations dans vos analyses ?**
 
-- *(profil ou scénario 1)*
-- *(profil ou scénario 2)*
-- *(profil ou scénario 3)*
-- *(...)*
-
-*Attention : décrivez des circonstances observables et des interactions entre variables. Ne présentez pas une région ou une population comme étant intrinsèquement à risque.*
+-**Scénario 1** : Réservations avec un long délai entre la création et l'arrivée (*delai_reservation_jours* élevé), sans acompte (*type_acompte* : aucun).
+-**Scénario 2** : Clients ayant déjà un historique d'annulations passées (*annulations_passees* > 0).
+-**Scénario 3** : Réservations de groupes (*segment_client*) effectuées via des plateformes en ligne avec des tarifs remboursables.
 
 #### **Q6. Comment votre pipeline traite-t-il les valeurs manquantes et les catégories jamais observées pendant l’entraînement ?**
 
