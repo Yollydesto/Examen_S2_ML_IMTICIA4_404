@@ -1,4 +1,4 @@
-# 🎮 Projet Morpion ML - Examen M1 S1,  MACHINE LEARNING
+# 🎮 Projet Morpion ML - Examen M1 S2,  MACHINE LEARNING
 
 [Site Web ISPM](https://ispm-edu.com) - https://ispm-edu.com
 
@@ -22,7 +22,7 @@
 
 
 
-[Lien Video](https://drive.google.com/drive/folders/1OIBLziiX-BiaDlof8i4wAqiBojoWreUX?usp=drive_link) //siloina
+[Lien Video](https://drive.google.com/drive/folders/1OIBLziiX-BiaDlof8i4wAqiBojoWreUX?usp=drive_link) //soloina
 ## 📋 Table des Matières
 
 
