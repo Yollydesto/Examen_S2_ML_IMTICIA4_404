@@ -163,9 +163,9 @@ Un découpage aléatoire est inapproprié car les données sont ordonnées dans 
 #### **Q7. Selon vous, quelle action l’hôtel devrait-il entreprendre lorsqu’une réservation en cours présente une forte probabilité d’annulation ?**
 
 L'hôtel devrait privilégier une intervention proportionnée et proactive :
-1-Envoyer un message de courtoisie ou un e-mail de confirmation personnalisée quelques jours avant la fin du délai d'annulation gratuite.
-2-Proposer un avantage exclusif (surclassement, petit-déjeuner offert) si le client confirme son séjour de manière ferme.
-3-Vérifier la validité de la carte de paiement pour sécuriser la réservation sans pour autant l'annuler d'office.
+1. Envoyer un message de courtoisie ou un e-mail de confirmation personnalisée quelques jours avant la fin du délai d'annulation gratuite.
+2. Proposer un avantage exclusif (surclassement, petit-déjeuner offert) si le client confirme son séjour de manière ferme.
+3. Vérifier la validité de la carte de paiement pour sécuriser la réservation sans pour autant l'annuler d'office.
 
 #### **Q8. Votre modèle présente-t-il des performances comparables selon les régions ou les types de destination ?**
 
